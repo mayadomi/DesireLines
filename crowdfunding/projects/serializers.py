@@ -8,6 +8,7 @@ class PledgeSerializer(serializers.ModelSerializer):
 
 
 class ProjectSerializer(serializers.ModelSerializer):
+    owner = serializers.ReadOnlyField(source='owner.id')
     #pledges = PledgeSerializer(many=True, read_only=True)
     class Meta:
         model = apps.get_model('projects.Project')
