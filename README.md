@@ -1,8 +1,8 @@
-# DesireLines (BackEnd)
+# Desire Lines (Back End)
  
 by Maya Dominice
 
-She Codes crowdfunding project - DRF Backend.
+She Codes Plus crowdfunding project - DRF Backend.
 
 ## About
 Empowering the community to tackle urban design issues at the micro level to create cleaner, safer, welcoming, engaging and connected spaces; ultimately improving the health and wellbeing through urban design.
