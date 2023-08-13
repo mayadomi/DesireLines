@@ -29,7 +29,7 @@ She Codes Plus crowdfunding project - DRF Backend.
   
   - Method: POST
   
-  - Endpoint: https://https://desirelines-backend.fly.dev/users/
+  - Endpoint: https://desirelines-backend.fly.dev/users/
 
   No authentication is needed, but if content-type configuration isn't already configured, set this header value to:
   
@@ -72,7 +72,7 @@ She Codes Plus crowdfunding project - DRF Backend.
     
     - Method: POST
     
-    - Endpoint: https://https://desirelines-backend.fly.dev/api-token-auth/
+    - Endpoint: https://desirelines-backend.fly.dev/api-token-auth/
   
     - Content-Type | application/json
   
@@ -95,7 +95,7 @@ She Codes Plus crowdfunding project - DRF Backend.
     
     - Method: POST
     
-    - Endpoint: https://https://desirelines-backend.fly.dev/projects/
+    - Endpoint: https://desirelines-backend.fly.dev/projects/
   
     - Content-Type | application/json
   
