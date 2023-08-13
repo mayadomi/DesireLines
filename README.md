@@ -6,23 +6,23 @@ She Codes Plus crowdfunding project - DRF Backend.
 
 ## Submission Documentation for Part A - DRF 
 
-* [ ] **A link to the deployed project.**
+* [x] **A link to the deployed project.**
   
   The project is deployed at this URL: https://desirelines-backend.fly.dev/projects/
 
-* [ ] **A screenshot of Insomnia, demonstrating a successful GET method for any endpoint.**
+* [x] **A screenshot of Insomnia, demonstrating a successful GET method for any endpoint.**
 
-  <img src="./readme_images/insomnia_get_projects.PNG" alt="get_projects" width="700">
+  <img src="./readme_images/insomnia_get_projects.PNG" alt="get_projects" width="900">
 
-* [ ] **A screenshot of Insomnia, demonstrating a successful POST method for any endpoint.**
+* [x] **A screenshot of Insomnia, demonstrating a successful POST method for any endpoint.**
 
-  <img src="./readme_images/insomnia_create_new_user.PNG" alt="create user" width="700">
+  <img src="./readme_images/insomnia_create_new_user.PNG" alt="create user" width="900">
 
-* [ ] **A screenshot of Insomnia, demonstrating a token being returned.**
+* [x] **A screenshot of Insomnia, demonstrating a token being returned.**
 
-  <img src="./readme_images/insomnia_get_token.PNG" alt="generate token" width="700">
+  <img src="./readme_images/insomnia_get_token.PNG" alt="generate token" width="900">
 
-* [ ] **Step by step instructions for how to register a new user and create a new project (i.e. endpoints and body data).**
+* [x] **Step by step instructions for how to register a new user and create a new project (i.e. endpoints and body data).**
 
   #### Register a new user
   Using an interface/program of choice (such as Insomnia, Postman or SOAPUI), configure the following request:
@@ -136,7 +136,7 @@ She Codes Plus crowdfunding project - DRF Backend.
     }
     ```
     
-* [ ] **Your refined API specification and Database Schema.**
+* [x] **Your refined API specification and Database Schema.**
 
   Read on to see project concept details including API specification & schema :)
       
@@ -159,26 +159,29 @@ lighting, artwork pieces, connective pathways, vehicle traffic slowing devices a
 
 ## Features
 
-* [ ] Create an account
-* [ ] Login/Logout
-* [ ] Create a project
+* [x] Create an account
+* [x] Login/Logout
+* [ ] Password reset for user
+* [x] Create a project
 * [ ] Geo-locate (auto-populate address field) and get XY coordinates using third party API (*might be a stretch goal...hopefully can make it happen)
 * [ ] Project owner privileges:
   * [ ] Update status of a project (open/closed)
-* [ ] User privileges (logged in)
-  * [ ] Create a project
-  * [ ] Donate/pledge to an existing project
-  * [ ] Donate/pledge to one's own project
+* [x] User privileges (logged in)
+  * [x] Create a project
+  * [x] Donate/pledge to an existing project
+  * [x] Donate/pledge to one's own project
 * [ ] Pledges non-editable (ie can't withdraw or edit pledge once submitted)
 * [ ] View user profile (if user logged in)
     * [ ] List user's projects
     * [ ] List user's pledges
-* [ ] View project details (no login required)
+* [x] View project details (no login required)
 * [ ] View map of projects based on project's XY coordinates (no login required)
-* [ ] View list projects with highest pledges/closest to completion (no login required)
+* [x] View list of projects (no login required)
+    * [ ] Ordered by options (closest to completion, most recent etc)
+* [x] View list of pledges (no login required)
+    * [ ] Ordered by options (most recent)
 
-
-### Stretch Goals
+### Stretch Goals 
 
 * [ ] Password reset for user
 * [ ] Homepage list of projects filtered by map (spatial filter) - either default or as a toggle
