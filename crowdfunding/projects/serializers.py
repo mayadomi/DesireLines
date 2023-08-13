@@ -37,5 +37,8 @@ class ProjectDetailSerializer(ProjectSerializer):
         instance.image = validated_data.get('image', instance.image)
         instance.date_created = validated_data.get('date_created', instance.date_created)
         instance.owner = validated_data.get('owner', instance.owner)
+        instance.location_desc = validated_data.get('location_desc', instance.location_desc)
+        instance.location_x = validated_data.get('location_x', instance.location_x)
+        instance.location_y = validated_data.get('location_y', instance.location_y)
         instance.save()
         return instance
